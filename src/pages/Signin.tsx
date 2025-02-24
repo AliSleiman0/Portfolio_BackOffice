@@ -27,7 +27,7 @@ export const Signin = () => {
                 throw new Error('Access restricted to administrators only');
             }
 
-            navigate('/');
+            navigate('/about');
         } catch (error: any) {
             console.log("Full error object:", error); // 👈 Log the entire error
             if (error.response) {
